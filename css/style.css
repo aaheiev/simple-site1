@@ -1,0 +1,187 @@
+﻿body {
+    background: #003855 url(../img/bg.jpg) no-repeat center top;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+.main {
+    margin: 0px auto;
+    width: 950px;
+}
+.logo {
+  float: left;
+  height: 170px;
+}
+.contact {
+  float: right;
+  margin-top: 50px;
+  height: 120px;
+}
+.phone {
+  line-height: 40px;
+  font-size: 32px;
+  text-shadow: #005e87 0px -1px 0px;
+}
+.email {
+  line-height: 30px;
+}
+.email a {
+  font-size: 22px;
+  text-shadow: #005e87 0px -1px 0px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.product-list {
+  margin-top: 270px;
+}
+.product-list ul li {
+  float: left;
+  margin: 10px 10px 0 0;
+  width: 230px;
+  height: 310px;
+  background: url(../img/product-bg-default.png) no-repeat top left;
+  position: relative;
+}
+.product-list ul li img {
+  position: absolute;
+}
+.product-list ul li a {
+  display: block;
+  position: absolute;
+  margin-top: 235px;
+  height: 27px;
+  line-height: 25px;
+  font-size: 16px;
+  right: 18px;
+  width: 120px;
+  background: url(../img/button.png) repeat-x left top;
+  text-align: center;
+  color: #fff;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+  -webkit-box-shadow: #222 0px 2px 6px;
+  -moz-box-shadow: #222 0px 2px 6px;
+  box-shadow: #222 0px 2px 6px;
+  cursor: pointer;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #0c6008;
+}
+.product-list ul li a:hover {
+	background-position: left -27px;
+}
+.product-list ul li a:active {
+	background-position: left -54px;
+}
+.product-list ul li .price {
+  position: absolute;
+  margin-top: 270px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 20px;
+  text-align: right;
+  width: 212px;
+}
+.product-list ul li.punch {
+  background: url(../img/punch-bg.png) no-repeat top left;
+}
+.product-list ul li.smoke {
+  background: url(../img/smoke-bg.png) no-repeat top left;
+  margin-right: 0px;
+}
+.product-list ul li.mr-green {
+  margin-left: 120px;
+}
+.product-list ul li.gypsy {
+  background: url(../img/gypsy-bg.png) no-repeat top left;
+}
+.product-list ul li.bunny {
+  background: url(../img/bunny-bg.png) no-repeat top left;
+}
+.copy {
+  margin: 50px 0px 30px 0px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+#form label,#form .label {
+	display: block;
+	margin-top: 10px;
+	float: left;
+	width: 220px;
+	margin-right: 30px;
+}
+#form .label {
+	width: 470px;
+}
+#form label input {
+	margin-top: 3px;
+	border: 1px solid #919191;
+	height: 27px;
+	line-height: 27px;
+	width: 220px;
+}
+#form .label select {
+	width: 470px;	
+}
+#form .label textarea {
+	margin-top: 3px;
+	border: 1px solid #919191;
+	height: 100px;
+	line-height: 16px;
+	width: 470px;
+	resize: none;
+}
+#form label span {
+	display: block;
+}
+#form h2 {
+	font-size: 24px;
+	font-weight: bold;
+}
+#form p {
+	line-height: 16px;
+	font-size: 13px;
+	margin: 10px 0px;
+}
+.form-send {
+	margin: 15px 0px;
+	text-align: right;
+	width: 470px;
+}
+.form-send input {
+  height: 27px;
+  line-height: 25px;
+  font-size: 15px;
+  width: 120px;
+  background: url(../img/button.png) repeat-x left top;
+  text-align: center;
+  color: #fff;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  border-radius: 13px;
+  -webkit-box-shadow: #444 0px 1px 3px;
+  -moz-box-shadow: #444 0px 1px 3px;
+  box-shadow: #444 0px 1px 3px;
+  cursor: pointer;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #0c6008;
+  border: 0px;
+}
+.form-send input:hover {
+	background-position: left -27px;
+}
+.form-send input:active {
+	background-position: left -54px;
+}
+.error {
+	display: inline;
+	font-size: 12px;
+	color: red;
+	line-height: 14px;
+} 
+.success {
+	color: green;
+	font-size: 17px;
+}
